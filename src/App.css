@@ -28,10 +28,15 @@
   color: #ff6348;
 }
 
+.carIcon {
+  color: #f1c40f;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
