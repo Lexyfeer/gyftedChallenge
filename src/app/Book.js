@@ -14,7 +14,6 @@ const Book = () => {
             try {
                 const response = await axios.get(urlBook);
                 setBook(response.data);
-                console.log('moko', response.data);
             } catch (error) {
                 setError(error);
             }
